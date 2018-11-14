@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+
+
+#drives {
+color: green;
+}
+
+
+#files {
+  text-align: center;
+  display: flex;  
+  justify-content: center;
+  padding-top: 20px; 
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 1px; 
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+table, thead,td,th,tbody {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  
+}
+
+button {
+  margin-top: 8px
+}
