@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clientinstall": "cd client && npm install",
+    "serverinstall": "cd server && npm install",
     "client": "cd client && npm start",
     "server": "cd server && npm start",
-    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "install": "concurrently \"npm run clientinstall\" \"npm run serverinstall\""
   },
   "author": "",
   "license": "ISC"
