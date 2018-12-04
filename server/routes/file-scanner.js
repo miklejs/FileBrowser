@@ -94,7 +94,7 @@ app.post('/files', (req, res) => {
     }
     
              
-        return await result
+        return Promise.all(result);
     }
   
     await checkFiles(req.body.choosed)  
